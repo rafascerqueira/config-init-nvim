@@ -53,6 +53,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'morhetz/gruvbox'
 Plug 'prettier/vim-prettier'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'terryma/vim-multiple-cursors'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -198,7 +199,7 @@ set gfn=Monospace\ 10
 
 if has("gui_running")
   if has("gui_mac") || has("gui_macvim")
-    set guifont=Menlo:h12
+    set guifont=JetBrains\ Mono:h12
     set transparency=7
   endif
 else
@@ -498,7 +499,7 @@ let g:jedi#documentation_command = "K"
 let g:jedi#usages_command = "<leader>n"
 let g:jedi#rename_command = "<leader>r"
 let g:jedi#show_call_signatures = "0"
-let g:jedi#completions_command = "<C-Space>"
+"let g:jedi#completions_command = "<C-Space>"
 let g:jedi#smart_auto_mappings = 0
 
 " ale
