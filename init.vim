@@ -166,6 +166,11 @@ let g:airline#extensions#tagbar#enabled = 1
 let g:airline_skip_empty_sections = 1
 
 
+" ===========================
+"" Map leader to ,
+let mapleader=","
+" ===========================
+
 
 " ----------------
 "" Abbreviations
@@ -215,8 +220,6 @@ command! FixWhitespace :%s/\s\+$//e
 "" Mapping
 " ----------------
 
-"" Map leader to ,
-let mapleader=","
 
 " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
 " Coc only does snippet and additional edit on confirm.
